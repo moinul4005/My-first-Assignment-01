@@ -1,0 +1,10 @@
+/* banner styles */
+.banner{
+    background-image:url(../assets/Hero-bg.png);
+    background-size: cover;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
