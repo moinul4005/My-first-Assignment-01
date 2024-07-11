@@ -1,10 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
 /* banner styles */
-.banner{
-    background-image:url(../assets/Hero-bg.png);
+.banner {
+    background-image: url(../assets/Hero-bg.png);
     background-size: cover;
-    height: max-content;
+    height: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.banner-image {
+    margin-top: 50px;
+    align-items: center;
+    align-content: start;
+}
+
+.banner-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: black;
+}
+
+.banner-body {
+    text-align: center;
+    opacity: 00.5;
+    padding-top: 5px;
+    color: black;
+}
+
+.banner-btn {
+    background-color: rgb(122, 148, 173);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.banner-btn:hover {
+    background-color: rgb(194, 210, 247);
+    transition: 0.5 ease-in;
+}
+
+/* Topic-styles */
+.topic-section {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#head {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-1 {
+    padding-right: 70px;
+    margin-right: 80px;
+    text-align: justify;
+}
+
+.left-1 button {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(137, 124, 255);
+    border: 1px solid gray;
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-2 {
+    padding-right: 100px;
+}
+
+.right-1 button {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(137, 124, 255);
+    border: 1px solid gray;
+}
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-3 {
+    padding-right: 70px;
+    margin-right: 80px;
+    text-align: justify;
+}
+
+.left-3 button {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(137, 124, 255);
+    border: 1px solid gray;
+}
+
+.tittle {
+    margin-top: 80px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#header {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+
+.frame {
+    width: 1140px;
+    height: 615px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.iframe {
+    position: absolute;
+    width: 1140px;
+    height: 615px;
+}
+
+#iFrame {
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.new-task {
+    width: 940px;
+    margin: 0 auto;
+    padding: 80px 0;
+    margin-top: 70px;
+}
+
+.new-task .new-title {
+    text-align: center;
+}
+
+.new-task .new-title h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.new-task .new-title p {
+    margin: 20px 0;
+    color: rgb(45, 51, 65);
+}
+
+.new-task .items {
+    margin-top: 40px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.new-task .items .item {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.new-task .items .item div {
+    margin-top: 15px;
+}
+
+.new-task .items .item img {
+    width: 55px;
+}
+
+.new-task .items .item h2 {
+    font-weight: 600;
+}
+
+.new-task .items .item p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: rgb(45, 51, 65);
+}
+
+.new-task .items .item a {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(45, 51, 65);
+    text-decoration: underline;
+}
+
+.new-task .items .html5 {
+    background-color: rgb(255, 255, 255);
+}
+
+.new-task .items .css3 {
+    background-color: rgb(255, 255, 255);
+}
+
+.new-task .items .js {
+    background-color: rgb(248, 246, 245);
+}
+
+/* footer */
+.foot {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+}
+
+/* task styles */
+
+.task-1 {
+    width: 940px;
+    margin: 0 auto;
+    padding: 80px 0;
+    /* border: 1px solid red; */
+}
+
+.task-1 .task-heading {
+    text-align: center;
+}
+
+.task-1 .task-heading h2 {
+    font-weight: 600;
+    /* color: rgba(13, 19, 33, 0.7); */
+}
+
+.task-1 .task-heading p {
+    margin: 15px;
+    color: rgb(25, 31, 49);
+}
+
+.task-1 .task-container {
+    margin-top: 70px;
+}
+
+.task-1 .task-container .task {
+    display: flex;
+    align-items: center;
+    padding: 25px 15px;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.task-1 .task-container .task img {
+    width: 70px;
+}
+
+.task-1 .task-container .task div {
+    margin-left: 20px;
+}
+
+.task-1 .task-container .task h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.task-1 .task-container p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+}
+
+/* support styles */
+.support {
+    width: 940px;
+    height: 310px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-image: url('../assets/handshake.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(13, 19, 33, 0.3);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.support .support-head {
+    width: 650px;
+}
+
+.support .support-head .suggest-div {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.support .support-head .suggest-div #inputfield {
+    width: 100%;
+    margin-right: 10px;
+    padding: 9px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.support .support-head .suggest-div .suggestbtn{
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.support .support-head h1{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.support .support-head p{
+    margin: 10px 0;
+    font-size: 14px;
+    color: rgb(180, 167, 167);
 }
